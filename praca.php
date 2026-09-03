@@ -79,7 +79,7 @@
 
 								<label for="telefon"><span class="wyglad"><span class="pokaz">*</span>Telefon: </span></label><input type="tel" pattern="^[0-9]{9}$" maxlength="9" placeholder="678324864" id="telefon" name="telefon" autocomplete="off" required/>
 
-								<label for="email"><span class="wyglad2">E-mail: </span></label><input type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" maxlength="40" placeholder="patryk@gmail.com" id="email" name="email" autocomplete="off"/><br/>
+								<label for="email"><span class="wyglad2">E-mail: </span></label><input type="email" pattern="[a-zA-Z0-9._\%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}" maxlength="40" placeholder="patryk@gmail.com" id="email" name="email" autocomplete="off"/><br/>
 
 								<label for="wyksztalcenie"><span class="wyglad"><span class="pokaz">*</span>Wykształcenie: </span></label><select id="wyksztalcenie" name="wyksztalcenie" autocomplete="off" required>
 									<option value="">Nie wybrano</option>
