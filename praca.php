@@ -1,4 +1,5 @@
 <?php
+	session_name("PROJEKT_PRACA");
 	session_start();
 
 	$_SESSION["token"] = bin2hex(random_bytes(32));

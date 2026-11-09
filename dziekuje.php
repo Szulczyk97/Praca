@@ -1,4 +1,5 @@
 <?php
+	session_name("PROJEKT_PRACA");
 	session_start();
 
 	if(!isset($_SESSION["decyzja"]) || $_SESSION["decyzja"] != true){
